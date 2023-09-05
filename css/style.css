@@ -607,14 +607,12 @@ a {
 }
 
 @media (min-width: 768px) {
-
-  
-.callout__container {
-  max-width: 980px;
-  margin: 0 auto;
-  position: relative;
-  bottom: -150px;
-}
+  .callout__container {
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+    bottom: -150px;
+  }
 
   .callout__content {
     text-align: left;
@@ -857,6 +855,7 @@ a {
   background: #232323;
   padding: 20rem 2rem 1rem;
   justify-content: center;
+  padding-bottom: 50px;
 }
 .footer__heading {
   text-transform: uppercase;
@@ -870,9 +869,14 @@ a {
 }
 
 .footer__list a {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.525);
   text-transform: capitalize;
   opacity: 0.5;
+  transition: all 0.3s ease;
+}
+.footer__list a:hover {
+  color: white;
+  opacity: 1;
 }
 
 .footer__list li {

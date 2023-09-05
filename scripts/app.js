@@ -5,3 +5,4 @@ collapsibles.forEach((collapsible) => {
     collapsible.classList.toggle('collapsible--expanded');
   });
 });
+
